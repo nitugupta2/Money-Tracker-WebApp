@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('shot.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #16166c;
+}
+
+.container {
+  background-image: url('my.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: hsl(273, 91%, 43%);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(100, 207, 90, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select, button {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+#transaction-list {
+  list-style: none;
+  padding: 0;
+}
